@@ -183,6 +183,9 @@ section.description {
 	padding-left: 1px;
 	margin-bottom: 34px;
 }
+div.feature:nth-child(3n + 2) {
+	margin-right: 19px;
+}
 .feature:not(:nth-child(3n)) {
 	margin-right: 18px;
 }
@@ -191,7 +194,7 @@ section.description {
 	width: 59px;
 }
 .feature div {
-	padding-left: 23px;
+	padding-left: 22px;
 }
 .feature:not(:nth-child(3n))  div {
 	padding-left: 20px;
@@ -252,23 +255,22 @@ font-size: 12px;
 
 .portfolio-tabs{
 margin-bottom: 18px;
-      margin-top: 11px;
+      margin-top: 10px;
     padding-left: 1px;
 }
 .portfolio-tabs span {
-	cursor: pointer;
- display: inline-block;
+	    cursor: pointer;
+    display: inline-block;
     color: #666d89;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
     padding-top: 2px;
     padding-bottom: 3px;
     padding-left: 7px;
     padding-right: 6px;
     border: 1px solid #666d89;
-    margin-right: 7px;
+    margin-right: 6px;
     border-radius: 5px;
-
     letter-spacing: -0.15px;
 }
 span.portfolio-tabs-selected {
@@ -301,6 +303,9 @@ span.portfolio-tabs-selected {
   display: flex;
   margin-top: 45px;
 }
+.us-photos > div {
+	width: 300px;
+}
 
 .us-photos div:not(:last-child) {
   margin-right: 19px;
@@ -312,9 +317,11 @@ span.portfolio-tabs-selected {
   margin-left: 0px;
 }
 .us-photos h3 {
-  font-weight: 900;
-    letter-spacing: -0.4px;
-    white-space: nowrap;
+  	font-weight: 900;
+	letter-spacing: -0.4px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 .self-photo {
   margin-bottom: 12px;
@@ -399,6 +406,7 @@ span.portfolio-tabs-selected {
   height: 30px;
   border-radius: 6px;
    background-color: #d6564f;
+   cursor: pointer;
 }
 .contact-information {
   width: 34%;
