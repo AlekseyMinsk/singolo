@@ -75,7 +75,7 @@ li {
   align-items: flex-end;
   padding-bottom: 5px;
 }
-.nav-menu .active {
+.nav-menu li a:hover {
   color: #f06c64;
 }
 
@@ -133,9 +133,6 @@ li {
   align-items: center;
   justify-content: space-between;
   height: 594px;
-  
-  
-
   background: url(./assets/icons/iPhoneVertical.png) 112px -17px no-repeat, url(./assets/icons/iPhoneHorizontal.png) 360px 69px no-repeat   #f06c64;
 }
 .slider-button {
